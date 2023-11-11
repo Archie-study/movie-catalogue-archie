@@ -124,6 +124,10 @@ main {
     position: relative;
 }
 
+.movie-item .movie-item__header .movie-item__header__poster {
+    width: 100%;
+}
+
 .movie-item .movie-item__header .movie-item__header__rating {
     position: absolute;
     padding: 8px;
@@ -136,6 +140,14 @@ main {
 
 .movie-item .movie-item__header .movie-item__header__rating .movie-item__header__rating__score {
     margin-left: 10px;
+}
+
+.movie-item .movie-item__content {
+    padding: 16px;
+}
+
+.movie-item .movie-item__content h3 {
+    margin: 0 0 10px 0;
 }
 
 .movie-item .movie-item__content h3 a {
