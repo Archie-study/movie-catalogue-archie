@@ -5,6 +5,7 @@ const path = require('path');
 module.exports = {
     entry: {
         app: path.resolve(__dirname, 'src/scripts/index.js'),
+        sw: path.resolve(__dirname, 'scr/scripts/sw.js'),
     },
     output: {
         filename: '[name].bundle.js',
