@@ -1,7 +1,7 @@
 self.addEventListener('install', (event) => {
     console.log('Installing Service Worker ...');
 
-    // TODO: Caching App Shell Resource
+// TODO: Caching App Shell Resource
 });
 
 self.addEventListener('activate', (event) => {
@@ -14,5 +14,6 @@ self.addEventListener('fetch', (event) => {
     console.log(event.request);
 
     event.respondWith(fetch(event.request));
-    // TODO: Add/get fetch request to/from caches
+
+// TODO: Add/get fetch request to/from caches
 });
