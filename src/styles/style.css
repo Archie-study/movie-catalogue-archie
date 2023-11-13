@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -159,7 +159,8 @@ main {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 4; /*number of lines to show */
+    -webkit-line-clamp: 4;
+    /*number of lines to show */
     -webkit-box-orient: vertical;
 }
 
@@ -185,6 +186,28 @@ main {
 
 .movie .movie__info h4 {
     margin: 8px 0;
+}
+
+/* 
+    Like
+*/
+.like {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #db0000;
+
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: 0;
+
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
 }
 
 
